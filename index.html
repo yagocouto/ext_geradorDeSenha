@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <section>
+      <p id="passwordDisplay">Sua senha segura é: <span>********</span></p>
+
+
+      <fieldset>
+        <legend>Personalize sua senha</legend>
+
+        <div class="wrapper_input">
+          <input type="number" name="passLength" id="passLength">
+          <label for="passLength">Quantidade de caracteres</label>
+        </div>
+
+        <div class="wrapper_input">
+          <input type="checkbox" name="number" id="number" checked>
+          <label for="number">Incluir números</label>
+        </div>
+
+        <div class="wrapper_input">
+          <input type="checkbox" name="symbols" id="symbols" checked>
+          <label for="symbols">Incluir símbolos</label>
+        </div>
+
+        <div class="wrapper_input">
+          <input type="checkbox" name="letters" id="letters" checked>
+          <label for="letters">Incluir letras</label>
+        </div>
+      </fieldset>
+
+      <button id="generatePassword">Gerar Senha</button>
+    </section>
+  </main>
+
+  <script src="src/geradorDeSenha.js"></script>
+</body>
+
+</html>

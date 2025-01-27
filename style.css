@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  height: 15rem;
+  padding: 12px;
+  background-color: gainsboro;
+}
+
+#passwordDisplay span {
+  font-weight: 700;
+}
+
+fieldset {
+  height: 60%;
+  margin: 15px 0;
+}
+
+#passLength {
+  width: 2.1rem;
+}
+
+.wrapper_input {
+  margin: 5px;
+}
+
+/* Removendo botões de incremento/decremento nos campos numéricos */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
