@@ -1,0 +1,21 @@
+# Ignorar a pasta node_modules
+node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar o diretório de build (se houver)
+dist/
+build/
+
+# Ignorar arquivos de configuração específicos de IDEs (exemplo: VSCode, JetBrains)
+.vscode/
+.idea/
+
+# Ignorar arquivos de pacotes gerados
+npm-debug.log
+yarn-error.log
