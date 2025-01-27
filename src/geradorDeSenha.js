@@ -1,13 +1,5 @@
 "use strict";
-/**
- * Gerador de Senhas Aleatórias
-    Descrição: Um app que gera senhas seguras com opções de personalização.
-    Tecnologias: TypeScript, HTML, CSS.
-    Funcionalidades:
-    Escolha de comprimento da senha
-    Inclusão de números, letras e símbolos
-    Copiar a senha para a área de transferência
-*/
+
 const copy = document.querySelector('#copy');
 const passwordText = document.querySelector('span');
 const passwordLength = document.querySelector('#passLength');
